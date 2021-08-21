@@ -4,6 +4,5 @@ function multiplicar(m1,m2){
 }
 
 function dividir(m1,m2){
-   r = m1/m2;
-  console.log("Resultado" + r);
+   return m2 != 0 ? m1/m2 : console.log("La division entre 0 no es valida");
 }
